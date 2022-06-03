@@ -1,0 +1,55 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box div {
+  border-style: solid;
+  border-color: rgb(88, 88, 88);
+  width: 150px;
+  height: 100px;
+}
+
+.smolbox {
+    border-style: solid;
+    border-color: rgb(238, 192, 42);
+    width: 250px;
+    height: 100px;
+}
+.smolbox div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.smolsmolbox {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.smolsmolbox div {
+    display: flex;
+    border-style: solid;
+    border-color: rgb(255, 114, 48);
+    width: 350px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.smolbox2 {
+  border-style: solid;
+  border-color: rgb(92, 44, 0);
+  width: 250px;
+  height: 100px;
+}
+.smolbox2 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
